@@ -1,0 +1,38 @@
+main {
+  width: calc(min(87.5rem, 90%));
+  margin: 0 auto;
+}
+main p {
+  margin: 80px 0;
+  font-weight: 500;
+  font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 2.5s;
+}
+main p.highlight {
+  margin: 80px 0;
+  font-weight: 500;
+  font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2.3rem);
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 2.5s;
+}
+
+main h3 {
+  font-family: "Poppins", sans-serif;
+  color: #353f47;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 2.5s;
+}
+
+.heading-border {
+  width: 64px;
+  height: 2px;
+  background: #353f47;
+}
+
+#home {
+  padding: 80px 0;
+}

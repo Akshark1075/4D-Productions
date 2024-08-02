@@ -1,0 +1,54 @@
+.topnav {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: calc(min(87.5rem, 90%));
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.topnav-logo a {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 2.5s;
+}
+.topnav .menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.topnav .menu a {
+  display: block;
+  color: #333;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 2.5s;
+}
+.topnav .menu a::after {
+  position: absolute;
+  content: "";
+  bottom: -0.313rem;
+  left: 0;
+  width: 0;
+  height: 0.069rem;
+  background: #333;
+  display: block;
+  transition: width 0.2s ease-in;
+}
+
+.topnav .menu a:hover::after {
+  width: 100%;
+}
+
+.topnav .menu a.active:after {
+  width: 100%;
+}
