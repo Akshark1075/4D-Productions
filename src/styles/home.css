@@ -36,3 +36,15 @@ main h3 {
 #home {
   padding: 80px 0;
 }
+
+@media screen and (max-width: 991px) {
+  #home {
+    padding: 40px 0;
+  }
+  main p {
+    margin: 40px 0;
+  }
+  main p.highlight {
+    margin: 40px 0;
+  }
+}

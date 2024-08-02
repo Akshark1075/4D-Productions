@@ -52,3 +52,9 @@
 .topnav .menu a.active:after {
   width: 100%;
 }
+
+@media screen and (max-width: 991px) {
+  .topnav .menu {
+    gap: 1rem;
+  }
+}
